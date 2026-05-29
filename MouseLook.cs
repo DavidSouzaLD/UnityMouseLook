@@ -63,7 +63,7 @@ public class MouseLook : MonoBehaviour
 
         if (rotAxisX == null || rotAxisY == null)
         {
-            Debug.LogWarning("CharacterMouseLook: rotAxisX or rotAxisY is not assigned in the Inspector!", this);
+            Debug.LogWarning("MouseLook: rotAxisX or rotAxisY is not assigned in the Inspector!", this);
         }
 
         SetLockCursorAndPause(true);
